@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Annual Growth Rate Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="compoundAnnualGrowthRateRadio" name="variables" checked>
+  <label for="compoundAnnualGrowthRateRadio">Compound Annual Growth Rate</label>
+
+  <input type="radio" id="beginningValueRadio" name="variables" disabled>
+  <label for="beginningValueRadio">Beginning Value</label>
+
+  <input type="radio" id="endingValueRadio" name="variables" disabled>
+  <label for="endingValueRadio">Ending Value</label>
+
+  <input type="radio" id="numberofYearsRadio" name="variables" disabled>
+  <label for="numberofYearsRadio">Number of Years</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Beginning Value</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Ending Value</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Number of Years</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
